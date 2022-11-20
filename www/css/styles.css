@@ -5,7 +5,7 @@ img {
 }
 
 body {
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgb(248, 249, 250);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,12 +18,21 @@ header {
     height: 75px;
     top: 0px;
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
+
 
 h1 {
     font-size: 30px;
-    color: black;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(50, 207, 207);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: rgb(50, 207, 207);
     text-align: center;
 }
 
@@ -36,70 +45,22 @@ footer {
     width: 100%;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    justify-content: center;
 }
+
 
 #takePhoto {
     min-width: 150px;
     padding: 15px 10px;
-    margin: 20px;
+    margin-top: 5px;
     background: rgb(255, 255, 255);
     border: none;
     border-radius: 25px;
     color: rgb(50, 207, 207);
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     box-shadow: -7px -7px 20px 0 rgba(234, 234, 234, 0.7), 
     7px 7px 20px 0 rgba(141, 137, 153, 0.2);
 }
 
-
-
-
-
-
-
-
-
-/* body {
-    margin: 0;
-}
-
-.header {
-   text-align: center;
-   padding: auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column {
-    -ms-flex: 50%;
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.btn {
-    border: none;
-    outline: none;
-    padding: auto;
-    background-color: #f1f1f1;
-    font-size: 18px;
-}
-
-.btn.active {
-    background-color: #666;
-    color: white;
-} */
 
 
 
